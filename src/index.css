@@ -1,0 +1,44 @@
+.btn {
+  border-radius: 25px;
+  margin-top: 5%;
+}
+
+.github a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ru, .en {
+  cursor: pointer;
+  padding: 2%;
+  font-size: 20px;
+}
+
+.github a:hover {
+  color: orange;
+}
+
+.btn-primary, .btn-success {
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background: rgb(147, 231, 231);
+  border: #000;
+}
+
+.btn-success:hover {
+  color: #000;
+  background: rgb(150, 238, 155);
+  border: #000;
+}
+
+@media (min-width: 760px) {
+  .main {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+    padding-top: 2% !important;
+  }
+}
